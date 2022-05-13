@@ -9,11 +9,11 @@
         var output = document.getElementById("output");
      function getlocation() {
             if(navigator.geolocation){
-                navigator.geolocation.getCurrentPosition(displayPosition)
+                navigator.geolocation.getCurrentPosition(displayPosition);
             }
            else
             {
-               alert("Your browser does not support Geolocation API.")
+               alert("Your browser does not support Geolocation API.");
             }
      }
      function displayPosition(position){
